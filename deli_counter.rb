@@ -12,5 +12,5 @@ end
 
 def take_a_number(katz_deli, name)
   deli << name
-  puts "Welcome"
+  puts "Welcome #{name}, you are number #{deli.length}"
 end
