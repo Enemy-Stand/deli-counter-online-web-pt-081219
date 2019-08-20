@@ -4,7 +4,7 @@ def line(array)
   else
     current_line = "The line is currently:"
     deli.each_with_index |person, i|
-      current_line << "#{i}, #{person}"
+      current_line(1) << "#{i}, #{person}"
     end
     puts current_line
   end
