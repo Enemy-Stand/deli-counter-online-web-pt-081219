@@ -1,4 +1,4 @@
-def line(array)
+def line(deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
