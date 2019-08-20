@@ -1,9 +1,9 @@
-def line(katz_deli)
-  if katz_deli.empty?
+def line(deli)
+  if deli.empty?
     puts "The line is currently empty."
   else
     current_line = "The line is currently:"
-    katz_deli.each.with_index(1) do |person, i|
+    deli.each.with_index(1) do |person, i|
       current_line << " #{i}. #{person}"
     end
     puts current_line
@@ -16,7 +16,7 @@ def take_a_number(deli, name)
 end
 
 def now_serving
-  if katz_deli.empty?
+  if deli.empty?
     puts "There is nobody waiting to be served!"
   end
 end
