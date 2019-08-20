@@ -1,4 +1,4 @@
-def line(deli)
+def line(katz_delideli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
